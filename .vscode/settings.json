@@ -1,0 +1,14 @@
+{
+    "window.zoomLevel": 1,
+    "redhat.telemetry.enabled": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.colorTheme": "Default Light+",
+    "explorer.confirmDelete": false,
+    "emmet.triggerExpansionOnTab": true,
+    "editor.tabCompletion": "on",
+    "emmet.excludeLanguages": [
+        "markdown"
+    ]
+}
