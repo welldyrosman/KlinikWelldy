@@ -42,13 +42,17 @@ export default function HomeScreen({route,navigation}){
 			</View>
 			<Text style={{textAlign:'center', color:'white',fontSize:24,fontWeight:'bold',marginVertical:20}}>Reservasi</Text>
 			<View style={styles.conreservasi}>
-				<TouchableOpacity style={styles.btnreservasi}>
+				<TouchableOpacity onPress={()=>{
+            alert("GA SEJAUH ITU BROO")
+          }} style={styles.btnreservasi}>
 					<View style={{alignItems:'center'}}>
 					<FontAwesome5 name="stethoscope" size={90} color="#008CDB" />
 					<Text style={{color:"#008CDB",marginTop:20}}>Poli Umum & Bidan</Text>
 					</View>
 				</TouchableOpacity>
-				<TouchableOpacity style={styles.btnreservasi}>
+				<TouchableOpacity  onPress={()=>{
+            alert("GA SEJAUH ITU BROO")
+          }} style={styles.btnreservasi}>
 					<View style={{alignItems:'center'}}>
 						<FontAwesome5 name="tooth" size={90} color="#008CDB" />
 						<Text style={{color:"#008CDB",marginTop:20}}>Poli Gigi</Text>

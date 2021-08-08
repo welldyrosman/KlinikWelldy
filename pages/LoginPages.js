@@ -73,7 +73,9 @@ export default function LoginPages({navigation}){
           </View>
         </TouchableOpacity>
         <View style={styles.footlink}>
-          <TouchableOpacity style={{flexDirection:'row'}} >
+          <TouchableOpacity onPress={()=>{
+            alert("GA SEJAUH ITU BROO")
+          }} style={{flexDirection:'row'}} >
             <FontAwesome5 name="unlock-alt" size={14} color="yellow" />
             <Text style={styles.linklabel}>Forgot Password</Text>
           </TouchableOpacity>
